@@ -1,0 +1,7 @@
+<!--pages/test/test.wxml-->
+<button type="warn" plain size="mini" bindtap="handle">发送请求</button>
+<view>
+	<button class="btn" open-type="chooseAvatar" bindchooseavatar="chooseavatar">
+	<image class="avatar" src="{{avatarUrl}}" mode=""/>
+	</button>
+</view>
